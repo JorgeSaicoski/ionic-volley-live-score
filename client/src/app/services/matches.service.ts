@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root' // ensures this service is available application-wide
 })
 export class MatchService {
-  private apiUrl = 'http://your-api-domain.com'; // Replace with your Golang API URL
+  private apiUrl = 'http://localhost:8080'; // Replace with your Golang API URL
 
   constructor(private http: HttpClient) {}
 
