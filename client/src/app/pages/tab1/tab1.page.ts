@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
-import { MatchService } from '../services/matches.service';
+import { MatchService } from '../../services/matches.service';
 import { catchError, map } from 'rxjs/operators';
 import { CommonModule } from '@angular/common';
 

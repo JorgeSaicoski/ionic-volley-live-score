@@ -3,10 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root' // ensures this service is available application-wide
+  providedIn: 'root' 
 })
 export class MatchService {
-  private apiUrl = 'http://localhost:8080'; // Replace with your Golang API URL
+  private apiUrl = 'http://localhost:8080'; 
 
   constructor(private http: HttpClient) {}
 
