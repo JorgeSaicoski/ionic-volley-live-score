@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import { IonHeader, IonToolbar, IonTitle, IonContent, IonCard, IonLabel, IonButton, IonItem, IonCardContent } from '@ionic/angular/standalone';
 import { Match } from '../../models/match';
 import { MatchService } from '../../services/matches.service';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
+
 
 
 @Component({
@@ -11,7 +12,7 @@ import { IonicModule } from '@ionic/angular';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss'],
   standalone: true,
-  imports: [IonicModule, CommonModule, ReactiveFormsModule]
+  imports: [IonHeader, IonToolbar, IonTitle, IonContent, CommonModule, ReactiveFormsModule, IonCard, IonLabel, IonButton, IonItem, IonCardContent]
 
 })
 export class Tab2Page implements OnInit {
